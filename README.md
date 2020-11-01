@@ -11,8 +11,8 @@ Self-hosted (console) CRUD app written in .NET (C#) for RESTful database managem
 * OWIN
 * LINQ
 
-## Example HTTP requests
-Use a REST client of your choice (eg. [Insomnia](https://insomnia.rest/)) to make requests.
+## Usage
+[Initialize](https://github.com/szymmirr/dotnet-crud-app/blob/main/Initialize.sql) a database in SQL Server and link it in `Web.config` file. Use a REST client of your choice (eg. [Insomnia](https://insomnia.rest/)) to make requests.
 
 ### Add or Update
 Add (POST): `http://localhost:49277/company/create`
